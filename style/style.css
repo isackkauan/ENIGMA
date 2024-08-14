@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-family: "Special Elite", system-ui;
+    font-size: 100px;
+    margin-top: 50px; 
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(66, 133, 244, 0.5);   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: rgba(66, 133, 244, 0.5);   
+    transform: translateY(-8px); 
+}
+p{
+    font-family: "Special Elite", system-ui;
+    font-size: 30px;
+    margin-top: 100px;
+}
+

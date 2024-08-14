@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão com Prompt</title>
+</head>
+<body>
+    <button onclick="mostrarPrompt()">Clique aqui</button>
+
+    <script>
+        function mostrarPrompt() {
+            var resposta = window.prompt("Digite algo:");
+            if (resposta !== null) {
+                alert("Você digitou: " + resposta);
+            }
+        }
+    </script>
+</body>
+</html>
