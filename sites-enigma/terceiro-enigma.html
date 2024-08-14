@@ -1,31 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRIMEIRO-ENIGMA</title>
+    <title>TERCEIRO ENIGMA</title>
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
-
+    
     <link rel="stylesheet" href="../style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>ENIGMA</h1>
-    <button onclick="botaoPrimeiro()" type="button" id="enigma-button">Você é capaz de ConTRoL Ar os seus desejos?</button>
-    <p>A senha é "EU ESTAREI"</p>
+    <img src="../images/terceiro-enigma.png" alt="?">
+
+    <button onclick="botaoPrimeiro()">PROCURE!</button>
+
+    <p>se você abrir e desligar <br> no calor você vai ficar</p>
     
     <script>
         function botaoPrimeiro() {
             let resposta = window.prompt("Digite algo:");
             resposta = resposta.toLowerCase().trim();
             resposta = resposta.replace(/\s+/g, '');
-            if (resposta === "euestarei") {
-                window.location.href = 'segundo-enigma.html';
+            if (resposta === "chernoborg") {
+                window.location.href = 'quarto-enigma.html';
             }
         }
     </script>
-    <script src="../script/script.js"></script>
 </body>
 </html>
